@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+Fitness app that where a user can log calories and track them for a specific calorie goal to hit. The app also has individualized meal prep plans and personalized workouts based on if the user wants to lose, maintain, or gain weight.
 
 ### App Evaluation
 - **Category:** Fitness / Health
