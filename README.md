@@ -14,13 +14,12 @@ Original App Design Project - README Template
 [Description of your app]
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Fitness / Health
+- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer to track calories throughout the day or even when cooking meals to view recipes. Functionality wouldn’t be limited to mobile devices, however mobile version could potentially have more features.
+- **Story:** Analyze users choice of eating habits and goals, and provide steps and options to reach intended goals. And once user has hit such weight goals, they can create new goals which we can assess and then provide specified steps and options to achieve the new goal.
+- **Market:** Any individual could to use this app, and it is intended for people that want to be more active or need help when changing to a more active lifestyle. 
+- **Habit:** This app would be used frequently as they would have it open when working out, cooking a specific recipe, or when logging in calories. It would be an app users open daily as people eat every day and would track the calories of meals.
+- **Scope:** First we would start by asking people if they want to lose, maintain, or gain weight. Then we would show them specific meal preps, workouts, and a personalized calorie goal to reach everyday based on their choice. Large potential for use with athletes and people who want a change in their life and lead a healthier lifestyle.
 
 ## Product Spec
 
