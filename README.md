@@ -65,6 +65,12 @@ Fitness app that where a user can log calories and track them for a specific cal
 [Add picture of your hand sketched wireframes in this section]
 <img src="https://user-images.githubusercontent.com/89810484/159196987-2aef8be3-1da0-4420-b6ea-6313652cc45b.jpg"
  width=600>
+<img src="https://user-images.githubusercontent.com/89810484/159197075-c504032b-8a4f-4ef3-ac97-7b21a1d066e1.jpg"
+ width=600>
+<img src="https://user-images.githubusercontent.com/89810484/159197083-619c8f43-d56a-44bb-8df3-a074b1f7df7f.jpg"
+ width=600>
+<img src="https://user-images.githubusercontent.com/89810484/159197086-541e4191-c15a-4bfc-8461-db6f09075a5a.jpg"
+ width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
