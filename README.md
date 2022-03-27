@@ -109,6 +109,11 @@ Fitness app that where a user can log calories and track them for a specific cal
 | calorieCountPerFood | Number | number of calories in each different food the user adds to one of the three meals in the day |
 | calorieGoal | Number | number of calories the user wants to eat each day |
 ### Networking
-- [Add list of network requests by screen ]
+| Crud | Example |
+| ------------- | ------------- |
+| Get | Retrieve number of steps |
+| Get | Retrieve amount of calories and other nutrients in food |
+| Get | Retrieve meal prep recipes |
+| Get | Retrieve workout splits and exercises |
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
