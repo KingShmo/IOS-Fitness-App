@@ -94,7 +94,10 @@ Fitness app that where a user can log calories and track them for a specific cal
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+| First Header  | Second Header | Third Header |
+| ------------- | ------------- | ------------ |
+| Content Cell  | Content Cell  | Content Cell |
+| Content Cell  | Content Cell  | Content Cell |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
