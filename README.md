@@ -102,6 +102,12 @@ Fitness app that where a user can log calories and track them for a specific cal
 | completedAt | DateTime | time when user completes calorie goal for the day and date when they hit desired weight goal |
 | author | Pointer to user | image of user for online profile |
 | activeCount| Number | number of days user has stayed active on the app (logging on daily to track calories) |
+| weightGoal | Number | saved number that represents the weight the user wants to acheive |
+| breakfastId | String | id of the first meal where user adds foods for the day |
+| lunchId | String | id of the second meal where user adds foods for the day |
+| dinnerId | String | id of the last meal where user adds foods for the day |
+| calorieCountPerFood | Number | number of calories in each different food the user adds to one of the three meals in the day |
+| calorieGoal | Number | number of calories the user wants to eat each day |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
