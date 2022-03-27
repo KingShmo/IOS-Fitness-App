@@ -94,7 +94,7 @@ Fitness app that where a user can log calories and track them for a specific cal
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-| First Header  | Second Header | Third Header |
+| Property | Type | Description |
 | ------------- | ------------- | ------------ |
 | Content Cell  | Content Cell  | Content Cell |
 | Content Cell  | Content Cell  | Content Cell |
