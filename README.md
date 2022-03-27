@@ -96,8 +96,12 @@ Fitness app that where a user can log calories and track them for a specific cal
 ### Models
 | Property | Type | Description |
 | ------------- | ------------- | ------------ |
-| Content Cell  | Content Cell  | Content Cell |
-| Content Cell  | Content Cell  | Content Cell |
+| objectId  | String  | unique id of user profile  |
+| image | File  | images for excercises and foods |
+| captions | String | descriptions for types of workouts and foods |
+| completedAt | DateTime | time when user completes calorie goal for the day and date when they hit desired weight goal |
+| author | Pointer to user | image of user |
+| activeCount | number of days user has stayed active on the app (logging on daily to track calories) |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
