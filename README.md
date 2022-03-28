@@ -115,5 +115,44 @@ Fitness app that where a user can log calories and track them for a specific cal
 | Get | Retrieve amount of calories and other nutrients in food |
 | Get | Retrieve meal prep recipes |
 | Get | Retrieve workout splits and exercises |
-- [Create basic snippets for each Parse network request]
+
+```
+// iOS
+// (Read/GET) Query all posts where user is author
+let query = PFQuery(className:"objectId")
+query.whereKey("author", equalTo: currentUser)
+query.findObjectsInBackground { (calorieGoal: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error)
+   } else if let calorieGoal = calorieGoal {
+      print("Successfully retrieved calorieGoal.")
+      // Display goal and closeness to achieving it
+   }
+}
+query.findObjectsInBackground { (stepNum: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error)
+   } else if let stepNum = stepNum {
+      print("Successfully retrieved stepNum.")
+      // Display total step number (all time / weekly / daily) and goals for each
+   }
+}
+query.findObjectsInBackground { (mealPrep: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error)
+   } else if let mealPrep = mealPrep {
+      print("Successfully retrieved mealPrep.")
+      // Display all meal preps (breakfastId / lunchId / dinnerId) stored in mealPrep
+   }
+}
+query.findObjectsInBackground { (weightGoal: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error)
+   } else if let weightGoal = weightGoal {
+      print("Successfully retrieved weightGoal.")
+      // Display goals for weight and exercises associated with the goal
+   }
+}
+```
+
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
