@@ -118,7 +118,7 @@ Fitness app that where a user can log calories and track them for a specific cal
 
 ```
 // iOS
-// (Read/GET) Query all posts where user is author
+// (GET) Query all objects to display associated with user
 let query = PFQuery(className:"objectId")
 query.whereKey("author", equalTo: currentUser)
 query.findObjectsInBackground { (calorieGoal: [PFObject]?, error: Error?) in
