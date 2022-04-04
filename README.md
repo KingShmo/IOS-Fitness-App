@@ -155,4 +155,6 @@ query.findObjectsInBackground { (weightGoal: [PFObject]?, error: Error?) in
 }
 ```
 
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+### Sprint 1 gif
+
+<img src='http://g.recordit.co/Tjtdhoj3xa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
