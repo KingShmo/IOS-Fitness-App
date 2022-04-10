@@ -1,28 +1,34 @@
 //
-<<<<<<< Updated upstream:Fitness/HomeViewController.swift
-//  HomeViewController.swift
-//  Fitness
-//
-//  Created by EwwwDaFakeAccount on 4/3/22.
-=======
-//  DietViewController.swift
+//  GoalsViewController.swift
 //  Fitness App
 //
 //  Created by user209732 on 4/10/22.
->>>>>>> Stashed changes:Fitness/DietViewController.swift
 //
 
 import UIKit
 
-class DietViewController: UIViewController {
+class GoalsViewController: UIViewController {
 
+    @IBOutlet weak var CurrentWeightLabel: UILabel!
+    @IBOutlet weak var FinalWeightLabel: UILabel!
+    @IBOutlet weak var WeekWeightLabel: UILabel!
+    @IBOutlet weak var MonthWeightLabel: UILabel!
+    @IBOutlet weak var UpdateWeightTextField: UITextField!
+    @IBOutlet weak var UpdateGoalTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onUpdateWeight(_ sender: Any) {
+    }
+    
+    @IBAction func onUpdateGoal(_ sender: Any) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 

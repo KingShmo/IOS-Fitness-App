@@ -1,20 +1,13 @@
 //
-<<<<<<< Updated upstream:Fitness/HomeViewController.swift
-//  HomeViewController.swift
-//  Fitness
-//
-//  Created by EwwwDaFakeAccount on 4/3/22.
-=======
-//  DietViewController.swift
+//  SuggestionsViewController.swift
 //  Fitness App
 //
 //  Created by user209732 on 4/10/22.
->>>>>>> Stashed changes:Fitness/DietViewController.swift
 //
 
 import UIKit
 
-class DietViewController: UIViewController {
+class SuggestionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
