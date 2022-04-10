@@ -20,7 +20,11 @@
 		97CD2C2C27FB968E005BCCD9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2B27FB968E005BCCD9 /* FirebaseFirestore */; };
 		97CD2C2E27FB968E005BCCD9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2D27FB968E005BCCD9 /* FirebaseStorage */; };
 		97CD2C3227FB99C2005BCCD9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD2C3127FB99C2005BCCD9 /* LoginViewController.swift */; };
-		97CD2C3427FB9A40005BCCD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD2C3327FB9A40005BCCD9 /* HomeViewController.swift */; };
+		C29FB8E628038EDC00F79AE6 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8E528038EDC00F79AE6 /* TrackerViewController.swift */; };
+		C29FB8E828038EEE00F79AE6 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8E728038EEE00F79AE6 /* GoalsViewController.swift */; };
+		C29FB8EA28038EFC00F79AE6 /* LifestyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8E928038EFC00F79AE6 /* LifestyleViewController.swift */; };
+		C29FB8EC28038F0500F79AE6 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8EB28038F0500F79AE6 /* DietViewController.swift */; };
+		C29FB8EE28038F1200F79AE6 /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8ED28038F1200F79AE6 /* SuggestionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +36,13 @@
 		97CD2C1727FB9437005BCCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CD2C1A27FB9437005BCCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97CD2C1C27FB9437005BCCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97CD2C2227FB9549005BCCD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97CD2C2227FB9549005BCCD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97CD2C3127FB99C2005BCCD9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		97CD2C3327FB9A40005BCCD9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C29FB8E528038EDC00F79AE6 /* TrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		C29FB8E728038EEE00F79AE6 /* GoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		C29FB8E928038EFC00F79AE6 /* LifestyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifestyleViewController.swift; sourceTree = "<group>"; };
+		C29FB8EB28038F0500F79AE6 /* DietViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		C29FB8ED28038F1200F79AE6 /* SuggestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +80,16 @@
 		97CD2C0D27FB9436005BCCD9 /* Fitness App */ = {
 			isa = PBXGroup;
 			children = (
+				C29FB8ED28038F1200F79AE6 /* SuggestionsViewController.swift */,
+				C29FB8EB28038F0500F79AE6 /* DietViewController.swift */,
+				C29FB8E928038EFC00F79AE6 /* LifestyleViewController.swift */,
+				C29FB8E728038EEE00F79AE6 /* GoalsViewController.swift */,
+				C29FB8E528038EDC00F79AE6 /* TrackerViewController.swift */,
 				97CD2C0E27FB9436005BCCD9 /* AppDelegate.swift */,
 				97CD2C1027FB9436005BCCD9 /* SceneDelegate.swift */,
 				97CD2C1227FB9436005BCCD9 /* ViewController.swift */,
 				97CD2C3127FB99C2005BCCD9 /* LoginViewController.swift */,
 				97CD2C1427FB9436005BCCD9 /* Main.storyboard */,
-				97CD2C3327FB9A40005BCCD9 /* HomeViewController.swift */,
 				97CD2C1727FB9437005BCCD9 /* Assets.xcassets */,
 				97CD2C1927FB9437005BCCD9 /* LaunchScreen.storyboard */,
 				97CD2C1C27FB9437005BCCD9 /* Info.plist */,
@@ -168,11 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97CD2C3427FB9A40005BCCD9 /* HomeViewController.swift in Sources */,
+				C29FB8EC28038F0500F79AE6 /* DietViewController.swift in Sources */,
+				C29FB8E628038EDC00F79AE6 /* TrackerViewController.swift in Sources */,
 				97CD2C3227FB99C2005BCCD9 /* LoginViewController.swift in Sources */,
 				97CD2C1327FB9436005BCCD9 /* ViewController.swift in Sources */,
 				97CD2C0F27FB9436005BCCD9 /* AppDelegate.swift in Sources */,
+				C29FB8EE28038F1200F79AE6 /* SuggestionsViewController.swift in Sources */,
 				97CD2C1127FB9436005BCCD9 /* SceneDelegate.swift in Sources */,
+				C29FB8E828038EEE00F79AE6 /* GoalsViewController.swift in Sources */,
+				C29FB8EA28038EFC00F79AE6 /* LifestyleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

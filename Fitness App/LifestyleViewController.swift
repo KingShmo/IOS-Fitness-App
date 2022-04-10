@@ -1,13 +1,13 @@
 //
-//  HomeViewController.swift
+//  LifestyleViewController.swift
 //  Fitness App
 //
-//  Created by Ryan Sevidal on 4/4/22.
+//  Created by user209732 on 4/10/22.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class LifestyleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
