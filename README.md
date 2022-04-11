@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# Gymzilla
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -162,4 +162,24 @@ query.findObjectsInBackground { (weightGoal: [PFObject]?, error: Error?) in
 
 ## Unit 11 Checklist
 
-Insert things here to let graders know we completed them properly
+### Updated status of issues in Project board (2pts)
+Project Board has been updated. Currently existing issues have been moved to their appropriate spots and new issues have been made to solve in future sprints.
+
+### Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+New assignments for next sprint are planned. The main plans for next sprint involve:
+* Completing the launch screen and app icon
+* Complete missing components of the last remaining screens
+* Complete calculations for Goals screen to provide accurate predictions for user health
+* Complete view food report button on Diet screen to track daily information
+* Complete Diet tracking in the Tracking screen, it's alright if Lifestyle tracking is held off until next sprint
+
+### Completed user stories checked-off in README (2pts)
+User stories are updated above. For simplicity, completed user stories are also included below.
+- [x] User can set up goals they want to reach
+- [x] User can input their food choices
+- [x] User can input their lifestyle habits
+- [x] User can correctly sign in and sign up
+- [x] User can switch between tabs using a tab control bar
+
+### Gifs created to show build progress and added to README (3pts)
+(add gif link here)
