@@ -8,6 +8,7 @@ Original App Design Project - README Template
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Unit 11 Checklist](#Unit-11-Checklist)
 
 ## Overview
 ### Description
@@ -158,3 +159,7 @@ query.findObjectsInBackground { (weightGoal: [PFObject]?, error: Error?) in
 ### Sprint 1 gif
 
 <img src='http://g.recordit.co/Tjtdhoj3xa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Unit 11 Checklist
+
+Insert things here to let graders know we completed them properly
