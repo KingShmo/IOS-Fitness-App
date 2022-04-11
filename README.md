@@ -183,4 +183,4 @@ User stories are updated above. For simplicity, completed user stories are also 
 - [x] User can switch between tabs using a tab control bar
 
 ### Gifs created to show build progress and added to README (3pts)
-(add gif link here)
+<img src='http://g.recordit.co/8JDBfeoedF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
