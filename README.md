@@ -28,19 +28,20 @@ Fitness app that where a user can log calories and track them for a specific cal
 
 **Required Must-have Stories**
 
-* User can set up goals they want to reach
-* User can input their food choices
-* User can input their lifestyle habits
-* App automatically tracks input to encourage behavioral changes
-* User can look at app suggestions for improving diet / habits
-* User can view their improvements over time
+- [x] User can set up goals they want to reach
+- [x] User can input their food choices
+- [x] User can input their lifestyle habits
+- [x] User can correctly sign in and sign up
+- [ ] App automatically tracks input to encourage behavioral changes
+- [ ] User can look at app suggestions for improving diet / habits
+- [ ] User can view their improvements over time
 
 **Optional Nice-to-have Stories**
 
-* User can search for specific food replacements
-* User can search for workouts that improve specific muscles
-* User can link with friends to track each other as well
-* User can share their achievements on social media
+- [ ] User can search for specific food replacements
+- [ ] User can search for workouts that improve specific muscles
+- [ ] User can link with friends to track each other as well
+- [ ] User can share their achievements on social media
 
 ### 2. Screen Archetypes
 
