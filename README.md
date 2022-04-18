@@ -1,13 +1,15 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# Calorie Coach
 
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Unit 11 Checklist](#Unit-11-Checklist)
+4. [Unit 12 Checklist](#Unit-12-Checklist)
 
 ## Overview
 ### Description
@@ -27,19 +29,20 @@ Fitness app that where a user can log calories and track them for a specific cal
 
 **Required Must-have Stories**
 
-* User can set up goals they want to reach
-* User can input their food choices
-* User can input their lifestyle habits
-* App automatically tracks input to encourage behavioral changes
-* User can look at app suggestions for improving diet / habits
-* User can view their improvements over time
+- [x] User can set up goals they want to reach
+- [x] User can input their food choices
+- [x] User can input their lifestyle habits
+- [x] User can correctly sign in and sign up
+- [x] App automatically tracks input to encourage behavioral changes
+- [ ] User can look at app suggestions for improving diet / habits
+- [ ] User can view their improvements over time
 
 **Optional Nice-to-have Stories**
 
-* User can search for specific food replacements
-* User can search for workouts that improve specific muscles
-* User can link with friends to track each other as well
-* User can share their achievements on social media
+- [ ] User can search for specific food replacements
+- [ ] User can search for workouts that improve specific muscles
+- [ ] User can link with friends to track each other as well
+- [ ] User can share their achievements on social media
 
 ### 2. Screen Archetypes
 
@@ -158,3 +161,52 @@ query.findObjectsInBackground { (weightGoal: [PFObject]?, error: Error?) in
 ### Sprint 1 gif
 
 <img src='http://g.recordit.co/Tjtdhoj3xa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Unit 11 Checklist
+
+### Updated status of issues in Project board (2pts)
+Project Board has been updated. Currently existing issues have been moved to their appropriate spots and new issues have been made to solve in future sprints.
+
+### Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+New assignments for next sprint are planned. The main plans for next sprint involve:
+* Completing the launch screen and app icon
+* Complete missing components of the last remaining screens
+* Complete calculations for Goals screen to provide accurate predictions for user health
+* Complete view food report button on Diet screen to track daily information
+* Complete Diet tracking in the Tracking screen, it's alright if Lifestyle tracking is held off until next sprint
+
+### Completed user stories checked-off in README (2pts)
+User stories are updated above. For simplicity, completed user stories are also included below.
+- [x] User can set up goals they want to reach
+- [x] User can input their food choices
+- [x] User can input their lifestyle habits
+- [x] User can correctly sign in and sign up
+- [x] User can switch between tabs using a tab control bar
+
+### Gifs created to show build progress and added to README (3pts)
+<img src='http://g.recordit.co/8JDBfeoedF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Unit 12 Checklist
+
+### Updated status of issues in Project board (2pts)
+Project Board has been updated. Most important parts are now completed (except for a few) and most remaining features are more nice to have than actually required.
+
+### Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+New assignments for next sprint are planned. The main plans for next sprint involve:
+* Completing design aspect of last 3 remaining screens
+* Complete the components and design of extra tracking screens (not main tracker)
+* Create possibility for users to search for other friends to track alongside themself
+* Possibly introduce another new screen for friend tracking? this was originally part of the main tracker screen but is now possibly made its own screen
+
+### Completed user stories checked-off in README (2pts)
+User stories are updated above. For simplicity, completed user stories are also included below. The only update between this unit and unit 11 is the app being able to track user behaviors. This sprint fo us was mainly about bringing together the look of the app and understanding how we wanted a user to be able to move through the app.
+- [x] User can set up goals they want to reach
+- [x] User can input their food choices
+- [x] User can input their lifestyle habits
+- [x] User can correctly sign in and sign up
+- [x] User can switch between tabs using a tab control bar
+- [x] App automatically tracks input to encourage behavioral changes
+- [x] Completed app icon and launch screen
+
+### Gifs created to show build progress and added to README (3pts)
+(insert gif link here)
