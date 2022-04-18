@@ -9,6 +9,7 @@ Original App Design Project - README Template
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
 3. [Unit 11 Checklist](#Unit-11-Checklist)
+4. [Unit 12 Checklist](#Unit-12-Checklist)
 
 ## Overview
 ### Description
@@ -32,7 +33,7 @@ Fitness app that where a user can log calories and track them for a specific cal
 - [x] User can input their food choices
 - [x] User can input their lifestyle habits
 - [x] User can correctly sign in and sign up
-- [ ] App automatically tracks input to encourage behavioral changes
+- [x] App automatically tracks input to encourage behavioral changes
 - [ ] User can look at app suggestions for improving diet / habits
 - [ ] User can view their improvements over time
 
@@ -184,3 +185,28 @@ User stories are updated above. For simplicity, completed user stories are also 
 
 ### Gifs created to show build progress and added to README (3pts)
 <img src='http://g.recordit.co/8JDBfeoedF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Unit 12 Checklist
+
+### Updated status of issues in Project board (2pts)
+Project Board has been updated. Most important parts are now completed (except for a few) and most remaining features are more nice to have than actually required.
+
+### Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+New assignments for next sprint are planned. The main plans for next sprint involve:
+* Completing design aspect of last 3 remaining screens
+* Complete the components and design of extra tracking screens (not main tracker)
+* Create possibility for users to search for other friends to track alongside themself
+* Possibly introduce another new screen for friend tracking? this was originally part of the main tracker screen but is now possibly made its own screen
+
+### Completed user stories checked-off in README (2pts)
+User stories are updated above. For simplicity, completed user stories are also included below. The only update between this unit and unit 11 is the app being able to track user behaviors. This sprint fo us was mainly about bringing together the look of the app and understanding how we wanted a user to be able to move through the app.
+- [x] User can set up goals they want to reach
+- [x] User can input their food choices
+- [x] User can input their lifestyle habits
+- [x] User can correctly sign in and sign up
+- [x] User can switch between tabs using a tab control bar
+- [x] App automatically tracks input to encourage behavioral changes
+- [x] Completed app icon and launch screen
+
+### Gifs created to show build progress and added to README (3pts)
+(insert gif link here)
