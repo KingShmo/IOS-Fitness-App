@@ -209,4 +209,4 @@ User stories are updated above. For simplicity, completed user stories are also 
 - [x] Completed app icon and launch screen
 
 ### Gifs created to show build progress and added to README (3pts)
-(insert gif link here)
+<img src='http://g.recordit.co/fqzBNqeqBO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
