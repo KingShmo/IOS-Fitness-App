@@ -28,9 +28,17 @@ class GoalsViewController: UIViewController {
     }
     
     @IBAction func onUpdateWeight(_ sender: Any) {
+        CurrentWeightLabel.text = "197 lbs"
+        WeekWeightLabel.text = "195 lbs"
+        MonthWeightLabel.text = "186 lbs"
+        EndWeightLabel.text = "175 lbs"
     }
     
     @IBAction func onUpdateGoal(_ sender: Any) {
+        CurrentWeightLabel.text = "197 lbs"
+        WeekWeightLabel.text = "195 lbs"
+        MonthWeightLabel.text = "182.5 lbs"
+        EndWeightLabel.text = "170 lbs"
     }
     
     /*
