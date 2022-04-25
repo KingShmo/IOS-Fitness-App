@@ -215,10 +215,10 @@ User stories are updated above. For simplicity, completed user stories are also 
 ## Unit 13 Checklist
 
 ### Updated status of issues in Project board (2pts)
-Project Board has been updated. The important parts are completed and all remainin tasks were jobs we never got around to accomplishing.
+Project Board has been updated. The important parts are completed and all remaining tasks were jobs we never got around to accomplishing.
 
 ### Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
-There is no more sprints as we present the app tomorrow. Overall, we did a pretty good job at following our ideas for our upcoming sprints. The only thing that was unexpected throughout sprint planning was how many times we had to change our goals for our sprint early in development. Sometimes it was because our ideas were easier than expected, but most of the time it was because we overplanned for a week and had to reevaluate what we cvould realistically get done.
+There are no more sprints as we present the app tomorrow. Overall, we did a pretty good job at following our ideas for our upcoming sprints. The only thing that was unexpected throughout sprint planning was how many times we had to change our goals for our sprint early in development. Sometimes it was because our ideas were easier than expected, but most of the time it was because we overplanned for a week and had to reevaluate what we cvould realistically get done.
 
 ### Completed user stories checked-off in README (2pts)
 User stories are all completed. We ended up adding other features to our app that we felt were needed while also removing certain features that we decided were no as important as originally thought. There were features that we never got around to completing, but if we were to flesh out the idea of our app into something we actually put out into the app store, we are confident that we could've eventually completed all ideas we thought of.
