@@ -238,13 +238,19 @@ I will update how this part of the readme looks after we finish uploading our gi
 
 Gif of login:
 <img src='http://g.recordit.co/0Dp4x75fye.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 Gif of diet:
 <img src='http://g.recordit.co/PtGls4Z98i.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 Gif of goals:
 <img src='http://g.recordit.co/PUH28jOGOp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 Gif of other screen:
 <img src='http://g.recordit.co/tPaBGxRUoe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 Gif of other screen:
 <img src='http://g.recordit.co/2BfGgtM2Zj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 Gif of other screen:
 <img src='http://g.recordit.co/Omz0pBB2l9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
