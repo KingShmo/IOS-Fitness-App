@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1369.5652173913045" y="-430.58035714285711"/>
+            <point key="canvasLocation" x="1370" y="-98"/>
         </scene>
         <!--Diet-->
         <scene sceneID="8zL-uj-B80">
@@ -727,13 +727,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZTu-7y-8Np" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1371" y="311"/>
+            <point key="canvasLocation" x="1370" y="589"/>
         </scene>
         <!--Goals-->
         <scene sceneID="4Mj-JO-7YH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zkK-A6-rhI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Goals" id="JsP-6t-3WE"/>
+                    <tabBarItem key="tabBarItem" title="Goals" image="Webp.net-resizeimage-19" selectedImage="Webp.net-resizeimage-19" id="JsP-6t-3WE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FIz-MZ-8X7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -752,7 +752,7 @@
         <scene sceneID="6aX-4s-pro">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cIU-1s-n3B" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Diet" id="dBi-tl-Oxa"/>
+                    <tabBarItem key="tabBarItem" title="Diet" image="Webp.net-resizeimage-3" selectedImage="Webp.net-resizeimage-3" id="dBi-tl-Oxa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kbj-Pe-20w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -767,11 +767,11 @@
             </objects>
             <point key="canvasLocation" x="448" y="1318"/>
         </scene>
-        <!--Suggestions-->
+        <!--Workouts-->
         <scene sceneID="PaT-KW-Jr8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P3a-KJ-qEa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Suggestions" id="eaA-vo-EmC"/>
+                    <tabBarItem key="tabBarItem" title="Workouts" image="Webp.net-resizeimage-16" selectedImage="Webp.net-resizeimage-16" id="eaA-vo-EmC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="H3m-gn-4WP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -786,11 +786,11 @@
             </objects>
             <point key="canvasLocation" x="3174" y="1318"/>
         </scene>
-        <!--Tracker-->
+        <!--Progress-->
         <scene sceneID="lUN-FU-vGj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5cS-2K-OvT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tracker" id="THi-d2-ga5"/>
+                    <tabBarItem key="tabBarItem" title="Progress" image="Webp.net-resizeimage-14" selectedImage="Webp.net-resizeimage-14" id="THi-d2-ga5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VVe-dj-edD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -809,7 +809,7 @@
         <scene sceneID="pRM-Jg-2FO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ThQ-HH-35R" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lifestyle" id="THl-6F-qwy"/>
+                    <tabBarItem key="tabBarItem" title="Lifestyle" image="Webp.net-resizeimage-4" selectedImage="Webp.net-resizeimage-4" id="THl-6F-qwy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9EC-OF-23e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -827,6 +827,11 @@
     </scenes>
     <resources>
         <image name="A2DBC267-F5F9-41CF-A824-C53908A03D8E" width="500" height="500"/>
+        <image name="Webp.net-resizeimage-14" width="25" height="25"/>
+        <image name="Webp.net-resizeimage-16" width="25" height="25"/>
+        <image name="Webp.net-resizeimage-19" width="25" height="25"/>
+        <image name="Webp.net-resizeimage-3" width="25" height="25"/>
+        <image name="Webp.net-resizeimage-4" width="25" height="25"/>
         <image name="benchmark-4.png" width="568" height="291"/>
         <image name="plus.square.dashed" catalog="system" width="128" height="114"/>
         <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
