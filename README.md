@@ -234,6 +234,8 @@ User stories are all completed. We ended up adding other features to our app tha
 ### Gifs created to show build progress and added to README (3pts)
 To account for our entire app, we have multiple gifs to show off ever different section of our app.
 I will update how this part of the readme looks after we finish uploading our gifs -John
+
+
 Gif of login:
 <img src='http://g.recordit.co/0Dp4x75fye.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Gif of diet:
