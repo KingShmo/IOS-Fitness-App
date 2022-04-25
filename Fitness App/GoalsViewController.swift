@@ -11,15 +11,14 @@ class GoalsViewController: UIViewController {
 
     @IBOutlet weak var CurrentWeightLabel: UILabel!
     
-    @IBOutlet weak var WeekWeightLabel: UILabel!
-    
-    @IBOutlet weak var MonthWeightLabel: UILabel!
-    
     @IBOutlet weak var EndWeightLabel: UILabel!
     
     @IBOutlet weak var UpdateGoalTextField: UITextField!
     
     @IBOutlet weak var UpdateWeightTextField: UITextField!
+    
+    var currentWeight = 0;
+    var endGoal = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,17 +27,16 @@ class GoalsViewController: UIViewController {
     }
     
     @IBAction func onUpdateWeight(_ sender: Any) {
-        CurrentWeightLabel.text = "197 lbs"
-        WeekWeightLabel.text = "195 lbs"
-        MonthWeightLabel.text = "186 lbs"
-        EndWeightLabel.text = "175 lbs"
+        currentWeight = Int(UpdateWeightTextField.text!)!
+        let weightText = String(currentWeight)
+        CurrentWeightLabel.text = weightText + " lbs"
+
     }
     
     @IBAction func onUpdateGoal(_ sender: Any) {
-        CurrentWeightLabel.text = "197 lbs"
-        WeekWeightLabel.text = "195 lbs"
-        MonthWeightLabel.text = "182.5 lbs"
-        EndWeightLabel.text = "170 lbs"
+        endGoal = Int(UpdateGoalTextField.text!)!
+        let goalText = String(endGoal)
+        EndWeightLabel.text = goalText + " lbs"
     }
     
     /*

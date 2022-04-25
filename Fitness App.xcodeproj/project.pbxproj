@@ -13,13 +13,13 @@
 		97CD2C1627FB9436005BCCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CD2C1427FB9436005BCCD9 /* Main.storyboard */; };
 		97CD2C1827FB9437005BCCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CD2C1727FB9437005BCCD9 /* Assets.xcassets */; };
 		97CD2C1B27FB9437005BCCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CD2C1927FB9437005BCCD9 /* LaunchScreen.storyboard */; };
-		97CD2C2327FB9549005BCCD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97CD2C2227FB9549005BCCD9 /* GoogleService-Info.plist */; };
 		97CD2C2627FB968E005BCCD9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2527FB968E005BCCD9 /* FirebaseAnalytics */; };
 		97CD2C2827FB968E005BCCD9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2727FB968E005BCCD9 /* FirebaseAuth */; };
 		97CD2C2A27FB968E005BCCD9 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2927FB968E005BCCD9 /* FirebaseDatabase */; };
 		97CD2C2C27FB968E005BCCD9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2B27FB968E005BCCD9 /* FirebaseFirestore */; };
 		97CD2C2E27FB968E005BCCD9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 97CD2C2D27FB968E005BCCD9 /* FirebaseStorage */; };
 		97CD2C3227FB99C2005BCCD9 /* 			.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD2C3127FB99C2005BCCD9 /* 			.swift */; };
+		97FA28A128160608007540DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97FA28A028160608007540DB /* GoogleService-Info.plist */; };
 		C29FB8E628038EDC00F79AE6 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8E528038EDC00F79AE6 /* TrackerViewController.swift */; };
 		C29FB8E828038EEE00F79AE6 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8E728038EEE00F79AE6 /* GoalsViewController.swift */; };
 		C29FB8EA28038EFC00F79AE6 /* LifestyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FB8E928038EFC00F79AE6 /* LifestyleViewController.swift */; };
@@ -36,8 +36,8 @@
 		97CD2C1727FB9437005BCCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CD2C1A27FB9437005BCCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97CD2C1C27FB9437005BCCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97CD2C2227FB9549005BCCD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97CD2C3127FB99C2005BCCD9 /* 			.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\t\t\t.swift"; sourceTree = "<group>"; };
+		97FA28A028160608007540DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C29FB8E528038EDC00F79AE6 /* TrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
 		C29FB8E728038EEE00F79AE6 /* GoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		C29FB8E928038EFC00F79AE6 /* LifestyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifestyleViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 				97CD2C1727FB9437005BCCD9 /* Assets.xcassets */,
 				97CD2C1927FB9437005BCCD9 /* LaunchScreen.storyboard */,
 				97CD2C1C27FB9437005BCCD9 /* Info.plist */,
-				97CD2C2227FB9549005BCCD9 /* GoogleService-Info.plist */,
+				97FA28A028160608007540DB /* GoogleService-Info.plist */,
 			);
 			path = "Fitness App";
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CD2C1B27FB9437005BCCD9 /* LaunchScreen.storyboard in Resources */,
-				97CD2C2327FB9549005BCCD9 /* GoogleService-Info.plist in Resources */,
+				97FA28A128160608007540DB /* GoogleService-Info.plist in Resources */,
 				97CD2C1827FB9437005BCCD9 /* Assets.xcassets in Resources */,
 				97CD2C1627FB9436005BCCD9 /* Main.storyboard in Resources */,
 			);

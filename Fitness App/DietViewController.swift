@@ -25,32 +25,61 @@ class DietViewController: UIViewController {
     
     @IBOutlet weak var DinnerCalorieTextField: UITextField!
     
+    @IBOutlet weak var MaxCaloriesTextField: UITextField!
+    
+    var totalCalories = 0;
+    var maxCalories = 0;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func onBreakfastFood(_ sender: Any) {
+        let url = URL(string: "https://api.edamam.com/api/food-database/v2/parser")!
+        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+        let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+        let task = session.dataTask(with: request) { (data, response, error) in
+             // This will run when the network request returns
+             if let error = error {
+                    print(error.localizedDescription)
+             } else if let data = data {
+                    let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+
+
+             }
+        }
+        task.resume()
     }
     
     @IBAction func onBreakfastCalorie(_ sender: Any) {
-    }
-    
-    @IBAction func onLunchFood(_ sender: Any) {
+        let breakfastCalorie: Int? = Int(BreakfastCalorieTextField.text!)
+        totalCalories += breakfastCalorie!
+        let totalCaloriesString = String(totalCalories)
+        CurrentCalorieLabel.text = totalCaloriesString
+        
     }
     
     @IBAction func onLunchCalorie(_ sender: Any) {
-    }
-    
-    @IBAction func onDinnerFood(_ sender: Any) {
+        let lunchCalorie: Int? = Int(LunchCalorieTextField.text!)
+        totalCalories += lunchCalorie!
+        let totalCaloriesString = String(totalCalories)
+        CurrentCalorieLabel.text = totalCaloriesString
     }
     
     @IBAction func onDinnerCalorie(_ sender: Any) {
+        let dinnerCalorie: Int? = Int(DinnerCalorieTextField.text!)
+        totalCalories += dinnerCalorie!
+        let totalCaloriesString = String(totalCalories)
+        CurrentCalorieLabel.text = totalCaloriesString
     }
     
-    @IBAction func onViewFoodReport(_ sender: Any) {
+    @IBAction func onSetMaxCalories(_ sender: Any) {
+        let maxCal: Int? = Int(MaxCaloriesTextField.text!)
+        maxCalories = maxCal!
+        let maxCaloriesString = String(maxCalories)
+        MaxCalorieLabel.text = maxCaloriesString
+        
     }
+    
+    
     /*
     // MARK: - Navigation
 
