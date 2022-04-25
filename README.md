@@ -227,25 +227,22 @@ User stories are all completed. We ended up adding other features to our app tha
 - [x] User can input their food choices
 - [x] User can input their lifestyle habits
 - [x] User can correctly sign in and sign up
-- [x] App automatically tracks input to encourage behavioral changes
-- [x] User can look at app suggestions for improving diet / habits
 - [x] User can view their improvements over time
 - [x] User can switch between tabs using a tab control bar
 - [x] Completed app icon and launch screen
-- [x] User can link with friends to track each other as well
 
 ### Gifs created to show build progress and added to README (3pts)
 To account for our entire app, we have multiple gifs to show off ever different section of our app.
 I will update how this part of the readme looks after we finish uploading our gifs -John
 Gif of login:
-(gif link)
+<img src='http://g.recordit.co/0Dp4x75fye.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Gif of diet:
-(gif link)
+<img src='http://g.recordit.co/PtGls4Z98i.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Gif of goals:
-(gif link)
+<img src='http://g.recordit.co/PUH28jOGOp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Gif of other screen:
-(gif link)
+<img src='http://g.recordit.co/tPaBGxRUoe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Gif of other screen:
-(gif link)
+<img src='http://g.recordit.co/2BfGgtM2Zj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Gif of other screen:
-(gif link)
+<img src='http://g.recordit.co/Omz0pBB2l9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
